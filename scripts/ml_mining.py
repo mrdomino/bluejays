@@ -27,7 +27,7 @@ if __name__ == '__main__':
 		except:
 			continue
 
-		if (i+1) % 10 == 0:
+		if (i+1) % 1000 == 0:
 			pickle.dump(collection, open('snaps/birds-%s.p' % (i+1), 'wb'))
 
 	final_file = 'snaps/birds-final.p'
